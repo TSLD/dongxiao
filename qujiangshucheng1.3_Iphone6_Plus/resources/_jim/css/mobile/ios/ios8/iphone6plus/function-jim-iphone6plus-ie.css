@@ -1,0 +1,13 @@
+/* start iPhone 6 Plus css values*/
+#jim-case { background-image: none; }
+#jim-case.portrait { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/iphone6plus/iphone6plus.png'); }
+#jim-case.landscape { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/iphone6plus/iphone6plus.png'); }
+#jim-container.landscape { top: 86px; left: 157px; }
+
+/* keyboard values */
+.portrait #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+
+.landscape #jim-iphone-kb .backspace.pressed { background-position-y: 0px; }
+.landscape #jim-iphone-kb #letters li.shift { height:32px; }
+.landscape #jim-iphone-kb li.space { margin-right:5px; }
